@@ -12,3 +12,7 @@
 
 # Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
 .glide/
+
+# Keep build dir, but ignore everything in it
+build/
+!build/.gitkeep
